@@ -1,0 +1,3 @@
+//MO007-008.TXT ANA00007 TO ANA00008
+USER		NFI		new file
+USER		FIC-	USER	USER file deleted

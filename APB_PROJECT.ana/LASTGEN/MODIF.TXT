@@ -1,0 +1,3 @@
+//MO053-054.TXT ANA00053 TO ANA00054
+PRODFSIZE_PO		TAR	558	new record size: 558
+PRODFSIZE_PO	FINISHING	TAI+	40	FINISHING item has been resized: 51 (instead of 11)

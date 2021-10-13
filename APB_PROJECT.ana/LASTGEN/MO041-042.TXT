@@ -1,0 +1,3 @@
+//MO041-042.TXT ANA00041 TO ANA00042
+PO		TAR	261	new record size: 261
+PO	SHIPDATE	RUB+		SHIPDATE is a new item

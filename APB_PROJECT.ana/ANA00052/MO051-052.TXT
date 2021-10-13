@@ -1,0 +1,3 @@
+//MO051-052.TXT ANA00051 TO ANA00052
+PO		TAR	512	new record size: 512
+PO	NOTES	RUB+		NOTES is a new item

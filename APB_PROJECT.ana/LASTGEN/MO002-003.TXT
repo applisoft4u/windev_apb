@@ -1,0 +1,160 @@
+//MO002-003.TXT ANA00002 TO ANA00003
+BFABRIC		TAR	59	new record size: 59
+BFABRIC		IDE+		file with identifier
+BFABRIC	BFABRICID	CNW	Automatic Identifier (8 bytes)$8-byte integer	new type for BFABRICID item: Automatic Identifier (8 bytes)
+BFABRIC	BFABRICATION	CNW	String$Unicode string	new type for BFABRICATION item: String
+BODY_SLHOUETTE		TAR	59	new record size: 59
+BODY_SLHOUETTE		IDE+		file with identifier
+BODY_SLHOUETTE	BODY_SLHOUETTEID	CNW	Automatic Identifier (8 bytes)$8-byte integer	new type for BODY_SLHOUETTEID item: Automatic Identifier (8 bytes)
+BODY_SLHOUETTE	BODY_SLHOUETTE	CNW	String$Unicode string	new type for BODY_SLHOUETTE item: String
+BSTYLE		TAR	139	new record size: 139
+BSTYLE		IDE+		file with identifier
+BSTYLE	BSTYLEID	RUB+		BSTYLEID is a new key
+BSTYLE	DESCR	CNW	String$Unicode string	new type for DESCR item: String
+BSTYLE	STYLECOD	CNW	String$Unicode string	new type for STYLECOD item: String
+BSTYLE	STATUS	CNW	Boolean$1-byte integer	new type for STATUS item: Boolean
+BSTYLE_CLRS		TAR	75	new record size: 75
+BSTYLE_CLRS		IDE+		file with identifier
+BSTYLE_CLRS	BSTYLE_CLRSID	CNW	Automatic Identifier (8 bytes)$8-byte integer	new type for BSTYLE_CLRSID item: Automatic Identifier (8 bytes)
+BSTYLE_CLRS	BSCOLOR	CNW	String$Unicode string	new type for BSCOLOR item: String
+CLOUD		IDE+		file with identifier
+CLOUD	CLOUDID	CNW	Automatic Identifier (8 bytes)$8-byte integer	new type for CLOUDID item: Automatic Identifier (8 bytes)
+CONFIG		TAR	59	new record size: 59
+CONFIG		IDE+		file with identifier
+CONFIG	CONFIGID	CNW	Automatic Identifier (8 bytes)$8-byte integer	new type for CONFIGID item: Automatic Identifier (8 bytes)
+CONFIG	TIMES	CNW	String$Unicode string	new type for TIMES item: String
+CUSTOMERS		TAR	59	new record size: 59
+CUSTOMERS		IDE+		file with identifier
+CUSTOMERS	CUSTOMERSID	CNW	Automatic Identifier (8 bytes)$8-byte integer	new type for CUSTOMERSID item: Automatic Identifier (8 bytes)
+CUSTOMERS	CUSTOMER	CNW	String$Unicode string	new type for CUSTOMER item: String
+DESING		TAR	489	new record size: 489
+DESING		IDE+		file with identifier
+DESING	DESINGID	CNW	Automatic Identifier (8 bytes)$8-byte integer	new type for DESINGID item: Automatic Identifier (8 bytes)
+DESING	STYLE	CNW	String$Unicode string	new type for STYLE item: String
+DESING	HITS	CNW	String$Unicode string	new type for HITS item: String
+DESING	DESIGN_NAME	CNW	String$Unicode string	new type for DESIGN_NAME item: String
+DESING	TECHNIQUECOMENT	CNW	String$Unicode string	new type for TECHNIQUECOMENT item: String
+DESING	ART	CNW	String$Unicode string	new type for ART item: String
+DESING	MADE_IN	CNW	String$Unicode string	new type for MADE_IN item: String
+DESING	PFAIL	CNW	String$Unicode string	new type for PFAIL item: String
+DESING	COMMENTS_ART	CNW	String$Unicode string	new type for COMMENTS_ART item: String
+DESING_SCREENS	DESINGID_SCREENSID	RUB+		DESINGID_SCREENSID is a new key
+DIVISION		TAR	59	new record size: 59
+DIVISION		IDE+		file with identifier
+DIVISION	DIVISIONID	CNW	Automatic Identifier (8 bytes)$8-byte integer	new type for DIVISIONID item: Automatic Identifier (8 bytes)
+DIVISION	DIVISION	CNW	String$Unicode string	new type for DIVISION item: String
+ENTERPRISE		TAR	212	new record size: 212
+ENTERPRISE		IDE+		file with identifier
+ENTERPRISE	ENTERPRISEID	CNW	Automatic Identifier (8 bytes)$8-byte integer	new type for ENTERPRISEID item: Automatic Identifier (8 bytes)
+ENTERPRISE	COMPANY	CNW	String$Unicode string	new type for COMPANY item: String
+ENTERPRISE	ADDRESSCOMP	CNW	String$Unicode string	new type for ADDRESSCOMP item: String
+ENTERPRISE	PHONE1	CNW	String$Unicode string	new type for PHONE1 item: String
+ENTERPRISE	PHONE2	CNW	String$Unicode string	new type for PHONE2 item: String
+HITS		TAR	59	new record size: 59
+HITS		IDE+		file with identifier
+HITS	HITSID	CNW	Automatic Identifier (8 bytes)$8-byte integer	new type for HITSID item: Automatic Identifier (8 bytes)
+HITS	NAMEHITS	CNW	String$Unicode string	new type for NAMEHITS item: String
+MACHINES		TAR	19	new record size: 19
+MACHINES		IDE+		file with identifier
+MACHINES	MACHINESID	CNW	Automatic Identifier (8 bytes)$8-byte integer	new type for MACHINESID item: Automatic Identifier (8 bytes)
+MACHINES	MACHINEDESC	CNW	String$Unicode string	new type for MACHINEDESC item: String
+MANUFAC		TAR	60	new record size: 60
+MANUFAC		IDE+		file with identifier
+MANUFAC	MANUFACID	CNW	Automatic Identifier (8 bytes)$8-byte integer	new type for MANUFACID item: Automatic Identifier (8 bytes)
+MANUFAC	DESCR	CNW	String$Unicode string	new type for DESCR item: String
+MANUFAC	STATUS	CNW	Boolean$1-byte integer	new type for STATUS item: Boolean
+PO		TAR	240	new record size: 240
+PO		IDE+		file with identifier
+PO	POID	CNW	Automatic Identifier (8 bytes)$8-byte integer	new type for POID item: Automatic Identifier (8 bytes)
+PO	CODEBAR	CNW	String$Unicode string	new type for CODEBAR item: String
+PO	DESTINATION	CNW	String$Unicode string	new type for DESTINATION item: String
+PO	PO_NUMBER	CNW	String$Unicode string	new type for PO_NUMBER item: String
+PO	SHOWPO	CNW	Boolean$1-byte integer	new type for SHOWPO item: Boolean
+PO	PO_MASTER	CNW	String$Unicode string	new type for PO_MASTER item: String
+PRODF		TAR	320	new record size: 320
+PRODF		IDE+		file with identifier
+PRODF	PRODFID	CNW	Automatic Identifier (8 bytes)$8-byte integer	new type for PRODFID item: Automatic Identifier (8 bytes)
+PRODF	STATUS	CNW	Boolean$1-byte integer	new type for STATUS item: Boolean
+PRODF	SCREENCHECK	CNW	Boolean$1-byte integer	new type for SCREENCHECK item: Boolean
+PRODF	FLASHCHECK	CNW	Boolean$1-byte integer	new type for FLASHCHECK item: Boolean
+PRODF	BURNSCHECK	CNW	Boolean$1-byte integer	new type for BURNSCHECK item: Boolean
+PRODF	COMM_SCREEN	CNW	String$Unicode string	new type for COMM_SCREEN item: String
+PRODF	COMM_ART	CNW	String$Unicode string	new type for COMM_ART item: String
+PRODF	SCOLOR	CNW	String$Unicode string	new type for SCOLOR item: String
+PRODF	SCODECOLOR	CNW	String$Unicode string	new type for SCODECOLOR item: String
+PRODF	ATTACHNOTES	CNW	String$Unicode string	new type for ATTACHNOTES item: String
+PRODF	COMM_ATTACH	CNW	String$Unicode string	new type for COMM_ATTACH item: String
+PRODF_HITS		TAR	237	new record size: 237
+PRODF_HITS	PRODFID_HITSID	RUB+		PRODFID_HITSID is a new key
+PRODF_HITS	SCREEN	CNW	String$Unicode string	new type for SCREEN item: String
+PRODF_HITS	FLASH	CNW	String$Unicode string	new type for FLASH item: String
+PRODF_HITS	BURNS	CNW	String$Unicode string	new type for BURNS item: String
+PRODF_HITS	MACHINESID	CLEN		MACHINESID item is now key
+PRODF_HITS	SIZESCREEN	CNW	String$Unicode string	new type for SIZESCREEN item: String
+PRODF_TPRICE		TAR	26	new record size: 26
+PRODF_TPRICE	PRODFID_TPRICEID	RUB+		PRODFID_TPRICEID is a new key
+PRODF_TPRICE	PRICE	CNW	Currency$Decimal	new type for PRICE item: Currency
+PRODFSIZE		IDE+		file with identifier
+PRODFSIZE	PRODFSIZEID	CNW	Automatic Identifier (8 bytes)$8-byte integer	new type for PRODFSIZEID item: Automatic Identifier (8 bytes)
+PRODFSIZE_PO	PRODFSIZEID_POID	RUB+		PRODFSIZEID_POID is a new key
+SALESTIPE		TAR	59	new record size: 59
+SALESTIPE		IDE+		file with identifier
+SALESTIPE	SALESTIPEID	CNW	Automatic Identifier (8 bytes)$8-byte integer	new type for SALESTIPEID item: Automatic Identifier (8 bytes)
+SALESTIPE	SALESDESC	CNW	String$Unicode string	new type for SALESDESC item: String
+SCREENS		TAR	59	new record size: 59
+SCREENS		IDE+		file with identifier
+SCREENS	SCREENSID	CNW	Automatic Identifier (8 bytes)$8-byte integer	new type for SCREENSID item: Automatic Identifier (8 bytes)
+SCREENS	SCREENS	CNW	String$Unicode string	new type for SCREENS item: String
+SEASON		TAR	59	new record size: 59
+SEASON		IDE+		file with identifier
+SEASON	SEASONID	CNW	Automatic Identifier (8 bytes)$8-byte integer	new type for SEASONID item: Automatic Identifier (8 bytes)
+SEASON	SEASON	CNW	String$Unicode string	new type for SEASON item: String
+SIZE		TAR	60	new record size: 60
+SIZE		IDE+		file with identifier
+SIZE	SIZEID	CNW	Automatic Identifier (8 bytes)$8-byte integer	new type for SIZEID item: Automatic Identifier (8 bytes)
+SIZE	DESCR	CNW	String$Unicode string	new type for DESCR item: String
+SIZE	STATUS	CNW	Boolean$1-byte integer	new type for STATUS item: Boolean
+TECHNIQUE		TAR	59	new record size: 59
+TECHNIQUE		IDE+		file with identifier
+TECHNIQUE	TECHNIQUEID	CNW	Automatic Identifier (8 bytes)$8-byte integer	new type for TECHNIQUEID item: Automatic Identifier (8 bytes)
+TECHNIQUE	TECHNIQUE	CNW	String$Unicode string	new type for TECHNIQUE item: String
+TECHNIQUE_DESING		IDE+		file with identifier
+TECHNIQUE_DESING	TECHNIQUE_DESINGID	CNW	Automatic Identifier (8 bytes)$8-byte integer	new type for TECHNIQUE_DESINGID item: Automatic Identifier (8 bytes)
+TPRICE		TAR	59	new record size: 59
+TPRICE		IDE+		file with identifier
+TPRICE	TPRICEID	CNW	Automatic Identifier (8 bytes)$8-byte integer	new type for TPRICEID item: Automatic Identifier (8 bytes)
+TPRICE	DESCR	CNW	String$Unicode string	new type for DESCR item: String
+TRACK		TAR	59	new record size: 59
+TRACK		IDE+		file with identifier
+TRACK	TRACKID	CNW	Automatic Identifier (8 bytes)$8-byte integer	new type for TRACKID item: Automatic Identifier (8 bytes)
+TRACK	STATUS	CNW	String$Unicode string	new type for STATUS item: String
+PRODF_DATES		NFI		new file
+USER		NFI		new file
+USER_1		FIC-	USER_1	USER_1 file deleted
+Constraint_CUSTOMERS_DESING		NWL	CUSTOMERS (CUSTOMERSID) and DESING (CUSTOMERSID)	New link between CUSTOMERS (CUSTOMERSID) and DESING (CUSTOMERSID) files
+Constraint_BODY_SLHOUETTE_BSTYLE		NWL	BODY_SLHOUETTE (BODY_SLHOUETTEID) and BSTYLE (BODY_SLHOUETTEID)	New link between BODY_SLHOUETTE (BODY_SLHOUETTEID) and BSTYLE (BODY_SLHOUETTEID) files
+Constraint_DESING_TECHNIQUE_DESING		NWL	DESING (DESINGID) and TECHNIQUE_DESING (DESINGID)	New link between DESING (DESINGID) and TECHNIQUE_DESING (DESINGID) files
+Constraint_DIVISION_BSTYLE		NWL	DIVISION (DIVISIONID) and BSTYLE (DIVISIONID)	New link between DIVISION (DIVISIONID) and BSTYLE (DIVISIONID) files
+Constraint_SALESTIPE_DESING		NWL	SALESTIPE (SALESTIPEID) and DESING (SALESTIPEID)	New link between SALESTIPE (SALESTIPEID) and DESING (SALESTIPEID) files
+Constraint_MANUFAC_STYLE		NWL	MANUFAC (MANUFACID) and BSTYLE (MANUFACID)	New link between MANUFAC (MANUFACID) and BSTYLE (MANUFACID) files
+Constraint_SEASON_DESING		NWL	SEASON (SEASONID) and DESING (SEASONID)	New link between SEASON (SEASONID) and DESING (SEASONID) files
+Constraint_BSTYLE_DESING		NWL	BSTYLE (STYLEID) and DESING (STYLEID)	New link between BSTYLE (STYLEID) and DESING (STYLEID) files
+Constraint_DESING_SCREENS		NWL	DESING (DESINGID) and DESING_SCREENS (DESINGID)	New link between DESING (DESINGID) and DESING_SCREENS (DESINGID) files
+Constraint_BSTYLE_BSTYLE_CLRS		NWL	BSTYLE (STYLEID) and BSTYLE_CLRS (STYLEID)	New link between BSTYLE (STYLEID) and BSTYLE_CLRS (STYLEID) files
+Constraint_DESING_PRODF		NWL	DESING (DESINGID) and PRODF (DESINGID)	New link between DESING (DESINGID) and PRODF (DESINGID) files
+Constraint_TRACK_DESING		NWL	TRACK (TRACKID) and DESING (TRACKID)	New link between TRACK (TRACKID) and DESING (TRACKID) files
+Constraint_TECHNIQUE_TECHNIQUE_DESING		NWL	TECHNIQUE (TECHNIQUEID) and TECHNIQUE_DESING (TECHNIQUEID)	New link between TECHNIQUE (TECHNIQUEID) and TECHNIQUE_DESING (TECHNIQUEID) files
+Constraint_BFABRIC_BSTYLE_CLRS		NWL	BFABRIC (BFABRICID) and BSTYLE_CLRS (BFABRICID)	New link between BFABRIC (BFABRICID) and BSTYLE_CLRS (BFABRICID) files
+Constraint_SCREENS_DESING		NWL	SCREENS (SCREENSID) and DESING_SCREENS (SCREENSID)	New link between SCREENS (SCREENSID) and DESING_SCREENS (SCREENSID) files
+Constraint_PRODF_HITS		NWL	PRODF (PRODFID) and PRODF_HITS (PRODFID)	New link between PRODF (PRODFID) and PRODF_HITS (PRODFID) files
+Constraint_HITS_PRODF		NWL	HITS (HITSID) and PRODF_HITS (HITSID)	New link between HITS (HITSID) and PRODF_HITS (HITSID) files
+Constraint_MACHINES_PRODF_HITS		NWL	MACHINES (MACHINESID) and PRODF_HITS (MACHINESID)	New link between MACHINES (MACHINESID) and PRODF_HITS (MACHINESID) files
+Constraint_PRODF_PRODFSIZE		NWL	PRODF (PRODFID) and PRODFSIZE (PRODFID)	New link between PRODF (PRODFID) and PRODFSIZE (PRODFID) files
+Constraint_SIZE_PRODFSIZE		NWL	SIZE (SIZEID) and PRODFSIZE (SIZEID)	New link between SIZE (SIZEID) and PRODFSIZE (SIZEID) files
+Constraint_PRODFSIZE_PO		NWL	PRODFSIZE (PRODFSIZEID) and PRODFSIZE_PO (PRODFSIZEID)	New link between PRODFSIZE (PRODFSIZEID) and PRODFSIZE_PO (PRODFSIZEID) files
+Constraint_PO_PRODFSIZE		NWL	PO (POID) and PRODFSIZE_PO (POID)	New link between PO (POID) and PRODFSIZE_PO (POID) files
+DESING_ibfk_1		DEL	TRACK (TRACKID) and DESING (TRACKID)	Link deleted between TRACK (TRACKID) and DESING (TRACKID) files
+DESING_ibfk_2		DEL	SALESTIPE (SALESTIPEID) and DESING (SALESTIPEID)	Link deleted between SALESTIPE (SALESTIPEID) and DESING (SALESTIPEID) files
+DESING_SCREENS_ibfk_1		DEL	DESING (DESINGID) and DESING_SCREENS (DESINGID)	Link deleted between DESING (DESINGID) and DESING_SCREENS (DESINGID) files
+DESING_SCREENS_ibfk_2		DEL	SCREENS (SCREENSID) and DESING_SCREENS (SCREENSID)	Link deleted between SCREENS (SCREENSID) and DESING_SCREENS (SCREENSID) files
+BSTYLE		FRN		

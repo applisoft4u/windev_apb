@@ -1,0 +1,5 @@
+//MO019-020.TXT ANA00019 TO ANA00020
+PRODF		TAR	524	new record size: 524
+PRODF	EFILE1	RUB+		EFILE1 is a new item
+PRODF	EFILE2	RUB+		EFILE2 is a new item
+PRODF	HFILE1	RUB+		HFILE1 is a new item

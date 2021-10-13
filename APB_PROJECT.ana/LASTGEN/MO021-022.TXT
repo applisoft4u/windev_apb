@@ -1,0 +1,6 @@
+//MO021-022.TXT ANA00021 TO ANA00022
+DESING		TAR	591	new record size: 591
+DESING	HITSEMB	RUB+		HITSEMB is a new item
+DESING	HITSHT	RUB+		HITSHT is a new item
+HITS		TAR	63	new record size: 63
+HITS	WORKTIPE	RUB+		WORKTIPE is a new item
